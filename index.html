@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ibuymiatas.com - Where Purpose Meets PURE UNBRIDLED PASSION FOR ROADSTERS</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #f9ca24);
+            background-size: 400% 400%;
+            animation: gradientShift 8s ease infinite;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .hero {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 25px;
+            padding: 3rem;
+            margin: 2rem 0;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 5px solid #ff6b6b;
+        }
+        
+        h1 {
+            font-size: 4rem;
+            color: #2c3e50;
+            margin: 0;
+            text-shadow: 3px 3px 0px #ff6b6b;
+            letter-spacing: -2px;
+            line-height: 1.1;
+        }
+        
+        .subtitle {
+            font-size: 1.8rem;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 1rem 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .manifesto {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 3rem 0;
+            font-size: 1.3rem;
+            line-height: 1.6;
+            text-align: left;
+        }
+        
+        .cta-section {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 3rem 0;
+            border: 3px dashed #4ecdc4;
+        }
+        
+        .cta-button {
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            color: white;
+            padding: 1.5rem 3rem;
+            font-size: 1.5rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+        
+        .values {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .value-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            border-radius: 15px;
+            border-left: 8px solid #4ecdc4;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .quote {
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #2c3e50;
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            border-left: 6px solid #ff6b6b;
+        }
+        
+        .rotating-text {
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        
+        .emoji-rain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .emoji {
+            position: absolute;
+            font-size: 2rem;
+            animation: fall linear infinite;
+        }
+        
+        @keyframes fall {
+            0% { transform: translateY(-100vh) rotate(0deg); }
+            100% { transform: translateY(100vh) rotate(360deg); }
+        }
+        
+        .footer {
+            background: rgba(44, 62, 80, 0.95);
+            color: white;
+            padding: 2rem;
+            border-radius: 20px 20px 0 0;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="emoji-rain" id="emojiRain"></div>
+    
+    <div class="container">
+        <div class="hero">
+            <h1 class="rotating-text">🚗 I BUY MIATAS 🚗</h1>
+            <div class="subtitle">Because Purpose-Driven Car Acquisition Isn't a Side Project—IT'S THE FOUNDATION!</div>
+            <p style="font-size: 1.4rem; color: #2c3e50; margin: 2rem 0;">
+                Listen, I've spent time thinking on this one and I feel that the word that best describes what we're doing here is <strong>ATTEMPTING</strong>. We are attempting to revolutionize the circular economy of roadsters, one NA at a time!
+            </p>
+        </div>
+
+        <div class="manifesto">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 2rem;">🌟 OUR UNHINGED MANIFESTO 🌟</h2>
+            <p><strong>With iBuyMiatas our goal is to accelerate the world's transition to a CIRCULAR ROADSTER ECONOMY.</strong> We imagine a world in which every Miata that is produced finds its way to someone who will CHERISH IT APPROPRIATELY.</p>
+            
+            <p>Oh my gosh, whatever needs to happen to get your Miata! I'm primarily responsible for supporting the acquisition and appreciation teams, while my co-founder handles all things technical, engineering, and pop-up-headlight-related. I focus on ops, HR, purchasing, and everything that ensures buying your Miata is a <em>delightful experience</em> for everyone involved.</p>
+            
+            <p><strong>The most important life lesson that I've learned is to always assume positive intent</strong> —even when someone says "it's just a Miata." NO. There is no "just" about it. These are PRECISION INSTRUMENTS OF JOY.</p>
+            
+            <p>Being recognized as San Francisco's most outstanding Miata acquirer is deeply personal. It means building a table where every roadster has a seat, where every owner feels seen, and where EVERY SINGLE NA, NB, NC, ND, AND RF gets the love it deserves!</p>
+        </div>
+
+        <div class="values">
+            <div class="value-card">
+                <h3>🎯 EARNEST ACQUISITION</h3>
+                <p>We lead with honesty, integrity, transparency, and humility when evaluating your Miata. These sum up our acquisition style into one word: <strong>EARNEST</strong>, which also encapsulates our imperfections (like that time we bought a Miata with a hardtop for WAY too much money).</p>
+            </div>
+            
+            <div class="value-card">
+                <h3>🌍 CIRCULAR ROADSTER ECONOMY</h3>
+                <p>Purpose-driven Miata ownership isn't a side project at iBuyMiatas—<strong>IT'S THE FOUNDATION</strong>. We're building systems that create positive change while maintaining transparency about our obsession with these perfect little cars.</p>
+            </div>
+            
+            <div class="value-card">
+                <h3>💪 COMMUNITY IMPACT</h3>
+                <p>The most rewarding part is having the Miata community behind us. They are what keeps us going every day since we started this absolutely unhinged journey of attempting to buy every single Miata in existence.</p>
+            </div>
+        </div>
+
+        <div class="quote">
+            "A world where doing the right thing is the easy thing—for Miata owners, for communities, and for the planet. Also where every Miata gets driven with the top down at least once a week because THAT'S WHAT THEY'RE FOR!" 
+            <br><strong>— Disney Petit's Spirit Animal (probably)</strong>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="color: #2c3e50; font-size: 2.5rem;">READY TO JOIN THE REVOLUTION?</h2>
+            <p style="font-size: 1.3rem; color: #34495e; margin: 2rem 0;">
+                We're not just buying Miatas. We're ATTEMPTING to create a world where every roadster finds its purpose, where every owner feels the wind in their hair, and where pop-up headlights never stop being magical.
+            </p>
+            
+            <button class="cta-button" onclick="alert('MIATA ACQUISITION INITIATED! 🚗💨')">
+                SELL ME YOUR MIATA NOW!
+            </button>
+            
+            <button class="cta-button" onclick="alert('PASSION LEVEL: MAXIMUM! 🔥🔥🔥')">
+                TELL ME MORE ABOUT THIS MADNESS!
+            </button>
+            
+            <p style="margin-top: 2rem; font-style: italic; color: #7f8c8d;">
+                * No Miata left behind. Seriously. We'll buy your rusty NA with a blown engine. We don't care. WE CARE TOO MUCH TO CARE.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>🚗 iBuyMiatas.com - Where Earnest Meets Unhinged 🚗</h3>
+        <p>Contact us: absolutely@obsessed.com | 1-800-POP-LITE</p>
+        <p><em>"The answer is always Miata. Even when the question wasn't about cars."</em></p>
+        <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
+            🏳️‍🌈 Proudly supporting equality, community, and the fundamental human right to own a roadster 🏳️‍🌈
+        </p>
+    </div>
+
+    <script>
+        // Create falling emoji rain
+        function createEmoji() {
+            const emojis = ['🚗', '🏎️', '🌟', '💨', '🔥', '⭐', '🌈', '💖'];
+            const emoji = document.createElement('div');
+            emoji.className = 'emoji';
+            emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+            emoji.style.left = Math.random() * 100 + '%';
+            emoji.style.animationDuration = (Math.random() * 3 + 2) + 's';
+            emoji.style.animationDelay = Math.random() * 2 + 's';
+            
+            document.getElementById('emojiRain').appendChild(emoji);
+            
+            setTimeout(() => {
+                emoji.remove();
+            }, 5000);
+        }
+        
+        // Create emoji every 500ms
+        setInterval(createEmoji, 500);
+        
+        // Add some interactive madness
+        document.addEventListener('click', function(e) {
+            const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f9ca24', '#a55eea'];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.setProperty('--accent-color', randomColor);
+            
+            // Create a burst of emojis at click location
+            for(let i = 0; i < 5; i++) {
+                setTimeout(() => createEmoji(), i * 100);
+            }
+        });
+    </script>
+</body>
+</html>
